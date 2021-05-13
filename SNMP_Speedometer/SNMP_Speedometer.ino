@@ -66,7 +66,7 @@ byte downloadRequestPacket[requestSize] = { 0x30, // Sequence Complex Data Type 
                                          0x02, // 2
                                          0x01, // 1
                                          0x10, // 16 (Download)
-                                         0x01, //                      // was 0x07 (eth0/lan on RV024G)
+                                         0x01, // 1                     // was 0x03, also 0x07 (eth0/lan on RV024G)
                                          0x05, // Value Type Null
                                          0x00 }; // Value Length 0
 
@@ -109,7 +109,7 @@ byte uploadRequestPacket[requestSize] = { 0x30, // Sequence Complex Data Type   
                                          0x02, // 2
                                          0x01, // 1
                                          0x0A, // 10 (Upload)
-                                         0x01, // 3                      // was 0x07 (eth0/lan on RV024G)
+                                         0x01, // 1                      // was 0x07 also was 0x03 (eth0/lan on RV024G)
                                          0x05, // Value Type Null
                                          0x00 }; // Value Length 0
 

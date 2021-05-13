@@ -7,5 +7,8 @@ It looks something like this:
 
 ![](https://github.com/jackmachiela/SNMP_Speedometer/blob/master/Graphics/SNMP-Speedometer.gif)
 
-The code shows it can work, but currently it's not yet finished - it's not actually accurate in any way yet. Hit the "Watch" button if you want to be kept up to date on it.
+Specifically, this is a stand-alone unit that doesn't require a physical connection to the PC or Router, and doesn't require a separate MQTT server. You can put it anywhere as long it has power and Wi-Fi.
+
+
+My unfinished code shows that it can work, but currently it's not yet finished - it's not actually accurate in any way yet. Hit the "Watch" button if you want to be kept up to date on it.
 
